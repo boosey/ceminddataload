@@ -1,0 +1,1706 @@
+{
+  "rows": [
+    {
+      "dataCells": [
+        {
+          "label": "UPS - Global Supply Chain - Data Localization-Project",
+          "value": "a3o3h00000150CJAAY"
+        },
+        {
+          "label": "UPS - Global Supply Chain - Data Localization",
+          "value": "0063h00000HXd5MAAT"
+        },
+        {
+          "label": "UNITED PARCEL SERVICE-US",
+          "value": "0013h000019FqjpAAC"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "New",
+          "value": "New"
+        },
+        {
+          "label": "5/27/2022",
+          "value": "2022-05-27"
+        },
+        {
+          "label": "8/31/2022",
+          "value": "2022-08-31"
+        },
+        {
+          "label": "Anil Prakash Singh",
+          "value": "0033h00000zPutqAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "FEDX - Dark packages Devops-Project",
+          "value": "a3o3h0000014zfFAAQ"
+        },
+        {
+          "label": "Fedex dark packages Devops opp IBM Client Engineering",
+          "value": "0063h00000HvgyyAAB"
+        },
+        {
+          "label": "FEDEX CORP-US",
+          "value": "0013h00000w1eCJAAY"
+        },
+        {
+          "escapedLabel": "Opportunity created as a result of the previous project around Dark Packages ML. Expanding to OCP proper and DevOps tooling.",
+          "label": "Opportunity created as a result of the previous project around Dark Packages ML. Expanding to OCP proper and DevOps tooling.",
+          "value": "Opportunity created as a result of the previous project around Dark Packages ML. Expanding to OCP proper and DevOps tooling."
+        },
+        {
+          "label": "In Progress",
+          "value": "In Progress"
+        },
+        {
+          "label": "4/4/2022",
+          "value": "2022-04-04"
+        },
+        {
+          "label": "6/30/2022",
+          "value": "2022-06-30"
+        },
+        {
+          "label": "Anil Prakash Singh",
+          "value": "0033h00000zPutqAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "FEDX - Dark Packages-Project",
+          "value": "a3o3h000001UJ6oAAG"
+        },
+        {
+          "label": "ELA Refresh",
+          "value": "0063h00000Ek5JnAAJ"
+        },
+        {
+          "label": "FEDEX CORP-US",
+          "value": "0013h00000w1eCJAAY"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "In Progress",
+          "value": "In Progress"
+        },
+        {
+          "label": "3/2/2022",
+          "value": "2022-03-02"
+        },
+        {
+          "label": "7/31/2022",
+          "value": "2022-07-31"
+        },
+        {
+          "label": "Anil Prakash Singh",
+          "value": "0033h00000zPutqAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "FEDX - Watson Vision for Dark Packages Edge",
+          "value": "a3o3h0000014zy7AAA"
+        },
+        {
+          "label": "ELA Refresh",
+          "value": "0063h00000Ek5JnAAJ"
+        },
+        {
+          "label": "FEDEX CORP-US",
+          "value": "0013h00000w1eCJAAY"
+        },
+        {
+          "escapedLabel": "Use Watson Vision in the Sorting Centers to identify overgoods at the edge",
+          "label": "Use Watson Vision in the Sorting Centers to identify overgoods at the edge",
+          "value": "Use Watson Vision in the Sorting Centers to identify overgoods at the edge"
+        },
+        {
+          "label": "Discovery",
+          "value": "Discovery"
+        },
+        {
+          "label": "5/4/2022",
+          "value": "2022-05-04"
+        },
+        {
+          "label": "8/31/2022",
+          "value": "2022-08-31"
+        },
+        {
+          "label": "Anil Prakash Singh",
+          "value": "0033h00000zPutqAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "THD-Analytics for Pricing, Assortment Planning-Project",
+          "value": "a3o3h000001UJ6eAAG"
+        },
+        {
+          "label": "Analytics for Pricing, Assortment Planning",
+          "value": "0063h00000Ek5xJAAR"
+        },
+        {
+          "label": "HOME DEPOT-US",
+          "value": "0013h00000w1eAOAAY"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "In Progress",
+          "value": "In Progress"
+        },
+        {
+          "label": "3/2/2022",
+          "value": "2022-03-02"
+        },
+        {
+          "label": "9/30/2022",
+          "value": "2022-09-30"
+        },
+        {
+          "label": "Grace Legrand",
+          "value": "0033h00000zPv6LAAS"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "THD - Sterling SFG RHOS Certified containers-Project",
+          "value": "a3o3h00000264XiAAI"
+        },
+        {
+          "label": "THD SFG RHOS Certified containers",
+          "value": "0063h00000Ek5xxAAB"
+        },
+        {
+          "label": "HOME DEPOT-US",
+          "value": "0013h00000w1eAOAAY"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "In Progress",
+          "value": "In Progress"
+        },
+        {
+          "label": "3/7/2022",
+          "value": "2022-03-07"
+        },
+        {
+          "label": "7/31/2022",
+          "value": "2022-07-31"
+        },
+        {
+          "label": "Anil Prakash Singh",
+          "value": "0033h00000zPutqAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "THD - Sterling B2Bi DevOps-Project",
+          "value": "a3o3h00000264YlAAI"
+        },
+        {
+          "label": "THD SFG RHOS Certified containers",
+          "value": "0063h00000Ek5xxAAB"
+        },
+        {
+          "label": "HOME DEPOT-US",
+          "value": "0013h00000w1eAOAAY"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "In Progress",
+          "value": "In Progress"
+        },
+        {
+          "label": "3/8/2022",
+          "value": "2022-03-08"
+        },
+        {
+          "label": "7/31/2022",
+          "value": "2022-07-31"
+        },
+        {
+          "label": "Anil Prakash Singh",
+          "value": "0033h00000zPutqAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "DAL-AIOps-Project",
+          "value": "a3o3h000001UIvlAAG"
+        },
+        {
+          "label": "AIOps",
+          "value": "0063h00000EkEq4AAF"
+        },
+        {
+          "label": "DELTA AIR LINES INC-US",
+          "value": "0013h00000w1cpxAAA"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "On Hold",
+          "value": "On Hold"
+        },
+        {
+          "label": "2/22/2022",
+          "value": "2022-02-22"
+        },
+        {
+          "label": "7/31/2022",
+          "value": "2022-07-31"
+        },
+        {
+          "label": "Anil Prakash Singh",
+          "value": "0033h00000zPutqAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "DAL - V-DP for AWS-Project",
+          "value": "a3o3h0000014zxsAAA"
+        },
+        {
+          "label": "Delta: IDG Refresh - NonProd to VDP",
+          "value": "0063h00000EkEqXAAV"
+        },
+        {
+          "label": "DELTA AIR LINES INC-US",
+          "value": "0013h00000w1cpxAAA"
+        },
+        {
+          "escapedLabel": "Support the movement of DAL applications to AWS by modernizing DP to V-DP and deploy to AWS near the applications.",
+          "label": "Support the movement of DAL applications to AWS by modernizing DP to V-DP and deploy to AWS near the applications.",
+          "value": "Support the movement of DAL applications to AWS by modernizing DP to V-DP and deploy to AWS near the applications."
+        },
+        {
+          "label": "Triage",
+          "value": "Triage"
+        },
+        {
+          "label": "5/4/2022",
+          "value": "2022-05-04"
+        },
+        {
+          "label": "6/30/2022",
+          "value": "2022-06-30"
+        },
+        {
+          "label": "Patrick Bennett",
+          "value": "0033h00000zKAmzAAG"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "UAL - BAWoC Expansion CC Users Tech Ops Team-Project",
+          "value": "a3o3h0000014zdsAAA"
+        },
+        {
+          "label": "United BAWoC Expansion CC Users Tech Ops Team",
+          "value": "0063h00000EkHBGAA3"
+        },
+        {
+          "label": "UNITED AIR LINES INC-US",
+          "value": "0013h00000w1Re5AAE"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "In Progress",
+          "value": "In Progress"
+        },
+        {
+          "label": "3/31/2022",
+          "value": "2022-03-31"
+        },
+        {
+          "label": "6/30/2022",
+          "value": "2022-06-30"
+        },
+        {
+          "label": "Brianna Snitchler",
+          "value": "0033h00000zPuuUAAS"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "UPS - VMware on Cloud for dev/test",
+          "value": "a3o3h000001UIrZAAW"
+        },
+        {
+          "label": "BCP Project - UPS VMware on Cloud.",
+          "value": "0063h00000EkJHbAAN"
+        },
+        {
+          "label": "UNITED PARCEL SERVICE-US",
+          "value": "0013h000019FqjpAAC"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "Completed",
+          "value": "Completed"
+        },
+        {
+          "label": "1/1/2022",
+          "value": "2022-01-01"
+        },
+        {
+          "label": "3/18/2022",
+          "value": "2022-03-18"
+        },
+        {
+          "label": "Hung Tack Kwan",
+          "value": "0033h00000zPv4dAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "UPS - Developer Self-Provisioning UI",
+          "value": "a3o3h000001UIreAAG"
+        },
+        {
+          "label": "BCP Project - UPS VMware on Cloud.",
+          "value": "0063h00000EkJHbAAN"
+        },
+        {
+          "label": "UNITED PARCEL SERVICE-US",
+          "value": "0013h000019FqjpAAC"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "Completed",
+          "value": "Completed"
+        },
+        {
+          "label": "1/1/2022",
+          "value": "2022-01-01"
+        },
+        {
+          "label": "3/11/2022",
+          "value": "2022-03-11"
+        },
+        {
+          "label": "Hung Tack Kwan",
+          "value": "0033h00000zPv4dAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "MRRT - OMS for Reservations-Project",
+          "value": "a3o3h000001500XAAQ"
+        },
+        {
+          "label": "Marriott - OMS for Reservations",
+          "value": "0063h00000FfkA4AAJ"
+        },
+        {
+          "label": "MARRIOTT INTERNATIONAL INC-US",
+          "value": "0013h000019FqiSAAS"
+        },
+        {
+          "escapedLabel": "Customer looking to consolidate backend systems for shopmarriott.com and other 3rd party experiences into one application that&#39;s seamless to customer. Goal is to provide customer flexibility for obtaining products either in hotel rooms or ship to home alo",
+          "label": "Customer looking to consolidate backend systems for shopmarriott.com and other 3rd party experiences into one application that's seamless to customer. Goal is to provide customer flexibility for obtaining products either in hotel rooms or ship to home alo",
+          "value": "Customer looking to consolidate backend systems for shopmarriott.com and other 3rd party experiences into one application that's seamless to customer. Goal is to provide customer flexibility for obtaining products either in hotel rooms or ship to home alo"
+        },
+        {
+          "label": "Triage",
+          "value": "Triage"
+        },
+        {
+          "label": "5/10/2022",
+          "value": "2022-05-10"
+        },
+        {
+          "label": "8/31/2022",
+          "value": "2022-08-31"
+        },
+        {
+          "label": "Anil Prakash Singh",
+          "value": "0033h00000zPutqAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "TRVL - Instana-Project",
+          "value": "a3o3h0000014zrVAAQ"
+        },
+        {
+          "label": "Travelport - Instana",
+          "value": "0063h00000GSkqlAAD"
+        },
+        {
+          "label": "TRAVELPORT-US",
+          "value": "0013h00000w1fBeAAI"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "In Progress",
+          "value": "In Progress"
+        },
+        {
+          "label": "5/2/2022",
+          "value": "2022-05-02"
+        },
+        {
+          "label": "7/31/2022",
+          "value": "2022-07-31"
+        },
+        {
+          "label": "Jessie Adams",
+          "value": "0033h00000zPuuXAAS"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "CSTC - API Mangement Consolidation > APIc-Project",
+          "value": "a3o3h0000014zdxAAA"
+        },
+        {
+          "label": "Costco - API Mangement Consolidation > APIc",
+          "value": "0063h00000GTKRgAAP"
+        },
+        {
+          "label": "COSTCO WHOLESALE CORPORATION-US",
+          "value": "0013h00000w1bVIAAY"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "In Progress",
+          "value": "In Progress"
+        },
+        {
+          "label": "3/31/2022",
+          "value": "2022-03-31"
+        },
+        {
+          "label": "7/31/2022",
+          "value": "2022-07-31"
+        },
+        {
+          "label": "Bruce Kyle",
+          "value": "0033h00000zPv96AAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "UAL - Passenger Service System (PSS) Availability Manager Assessment-Project",
+          "value": "a3o3h000001UIrjAAG"
+        },
+        {
+          "label": "Passenger Service System (PSS) Availability Manager Assessment",
+          "value": "0063h00000GU5YYAA1"
+        },
+        {
+          "label": "UNITED AIR LINES INC-US",
+          "value": "0013h00000w1Re5AAE"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "On Hold",
+          "value": "On Hold"
+        },
+        {
+          "label": "1/1/2022",
+          "value": "2022-01-01"
+        },
+        {
+          "label": "7/29/2022",
+          "value": "2022-07-29"
+        },
+        {
+          "label": "Anil Prakash Singh",
+          "value": "0033h00000zPutqAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "AA - Loyalty Business Rules",
+          "value": "a3o3h0000014zrLAAQ"
+        },
+        {
+          "label": "American Airline ODM SaaS -  GR Rules Lounges",
+          "value": "0063h00000Gbb9oAAB"
+        },
+        {
+          "label": "AMERICAN AIRLINES INC-US",
+          "value": "0013h00000w1UniAAE"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "In Progress",
+          "value": "In Progress"
+        },
+        {
+          "label": "5/2/2022",
+          "value": "2022-05-02"
+        },
+        {
+          "label": "6/30/2022",
+          "value": "2022-06-30"
+        },
+        {
+          "label": "Anil Prakash Singh",
+          "value": "0033h00000zPutqAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "NFSB - Instana monitoring Tibco",
+          "value": "a3o3h0000014zfPAAQ"
+        },
+        {
+          "label": "Norfolk Southern Turbonomic, Tibco Automation - Expert Labs",
+          "value": "0063h00000GvhPOAAZ"
+        },
+        {
+          "label": "NORFOLK SOUTHERN CORPORATION-US",
+          "value": "0013h00000w1ghyAAA"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "Triage",
+          "value": "Triage"
+        },
+        {
+          "label": "4/4/2022",
+          "value": "2022-04-04"
+        },
+        {
+          "label": "7/29/2022",
+          "value": "2022-07-29"
+        },
+        {
+          "label": "Bruce Kyle",
+          "value": "0033h00000zPv96AAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "HRTZ - DR Strategy",
+          "value": "a3o3h000001500cAAA"
+        },
+        {
+          "label": "Hertz SA # 77451771",
+          "value": "0063h00000HDIk8AAH"
+        },
+        {
+          "label": "THE HERTZ CORP-US",
+          "value": "0013h00000w1dIIAAY"
+        },
+        {
+          "escapedLabel": "Collaboration on MVP design to highlight incremental value prop of Maximo in client DR initiative.",
+          "label": "Collaboration on MVP design to highlight incremental value prop of Maximo in client DR initiative.",
+          "value": "Collaboration on MVP design to highlight incremental value prop of Maximo in client DR initiative."
+        },
+        {
+          "label": "Triage",
+          "value": "Triage"
+        },
+        {
+          "label": "5/10/2022",
+          "value": "2022-05-10"
+        },
+        {
+          "label": "8/31/2022",
+          "value": "2022-08-31"
+        },
+        {
+          "label": "Anil Prakash Singh",
+          "value": "0033h00000zPutqAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "HRTZ - CP4D and CP4I Expansion MVP",
+          "value": "a3o3h000001500hAAA"
+        },
+        {
+          "label": "Hertz SA # 77451771",
+          "value": "0063h00000HDIk8AAH"
+        },
+        {
+          "label": "THE HERTZ CORP-US",
+          "value": "0013h00000w1dIIAAY"
+        },
+        {
+          "escapedLabel": "Enhancement of existing MVP to better highlight value prop of CP4D and CP4I",
+          "label": "Enhancement of existing MVP to better highlight value prop of CP4D and CP4I",
+          "value": "Enhancement of existing MVP to better highlight value prop of CP4D and CP4I"
+        },
+        {
+          "label": "Triage",
+          "value": "Triage"
+        },
+        {
+          "label": "5/10/2022",
+          "value": "2022-05-10"
+        },
+        {
+          "label": "8/31/2022",
+          "value": "2022-08-31"
+        },
+        {
+          "label": "Anil Prakash Singh",
+          "value": "0033h00000zPutqAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "CSTC - AIOps for eComm-Project",
+          "value": "a3o3h000001UIv2AAG"
+        },
+        {
+          "label": "Costco - AIOps for eComm: PoC in Progress",
+          "value": "0063h00000HDUTfAAP"
+        },
+        {
+          "label": "Costco Wholesale Corporation-US",
+          "value": "0013h00000w2QdRAAU"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "In Progress",
+          "value": "In Progress"
+        },
+        {
+          "label": "1/1/2022",
+          "value": "2022-01-01"
+        },
+        {
+          "label": "5/31/2022",
+          "value": "2022-05-31"
+        },
+        {
+          "label": "Bruce Kyle",
+          "value": "0033h00000zPv96AAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "ALBT - Safeway - Foodtrust & SCIS-Project",
+          "value": "a3o3h000001UIzsAAG"
+        },
+        {
+          "label": "Safeway - SCIS",
+          "value": "0063h00000HG2kLAAT"
+        },
+        {
+          "label": "ALBERTSONS COMPANIES INC-US",
+          "value": "0013h00000w1e0cAAA"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "Completed",
+          "value": "Completed"
+        },
+        {
+          "label": "1/1/2022",
+          "value": "2022-01-01"
+        },
+        {
+          "label": "4/8/2022",
+          "value": "2022-04-08"
+        },
+        {
+          "label": "Hung Tack Kwan",
+          "value": "0033h00000zPv4dAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "NFSB - z/OS Connect and CP4I for Front End Improvement-Project",
+          "value": "a3o3h0000014ztlAAA"
+        },
+        {
+          "label": "z/OS Connect for Front End Inprovement",
+          "value": "0063h00000HXt20AAD"
+        },
+        {
+          "label": "NORFOLK SOUTHERN CORPORATION-US",
+          "value": "0013h00000w1ghyAAA"
+        },
+        {
+          "escapedLabel": "Currently NS has a situation where they enter data into one system submits and takes the results and enter them into a mainframe system manually. We have proposed a integration across 3 systems with CP4I AppConnect. We need an MVP to prove value of CP4I -",
+          "label": "Currently NS has a situation where they enter data into one system submits and takes the results and enter them into a mainframe system manually. We have proposed a integration across 3 systems with CP4I AppConnect. We need an MVP to prove value of CP4I -",
+          "value": "Currently NS has a situation where they enter data into one system submits and takes the results and enter them into a mainframe system manually. We have proposed a integration across 3 systems with CP4I AppConnect. We need an MVP to prove value of CP4I -"
+        },
+        {
+          "label": "Triage",
+          "value": "Triage"
+        },
+        {
+          "label": "4/20/2022",
+          "value": "2022-04-20"
+        },
+        {
+          "label": "6/30/2022",
+          "value": "2022-06-30"
+        },
+        {
+          "label": "Bruce Kyle",
+          "value": "0033h00000zPv96AAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "AA - CP4D Bad Night Expansion-Project",
+          "value": "a3o3h00000264dCAAQ"
+        },
+        {
+          "label": "AA - CP4D Bad Night Expansion",
+          "value": "0063h00000HY6wkAAD"
+        },
+        {
+          "label": "AMERICAN AIRLINES INC-US",
+          "value": "0013h00000w1UniAAE"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "Canceled",
+          "value": "Canceled"
+        },
+        {
+          "label": "3/11/2022",
+          "value": "2022-03-11"
+        },
+        {
+          "label": "7/31/2022",
+          "value": "2022-07-31"
+        },
+        {
+          "label": "Hung Tack Kwan",
+          "value": "0033h00000zPv4dAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "AA - Messaging expansion on cloud-Project",
+          "value": "a3o3h000001UIunAAG"
+        },
+        {
+          "label": "Messaging expansion on cloud",
+          "value": "0063h00000HYS6lAAH"
+        },
+        {
+          "label": "AMERICAN AIRLINES INC-US",
+          "value": "0013h00000w1UniAAE"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "On Hold",
+          "value": "On Hold"
+        },
+        {
+          "label": "1/1/2022",
+          "value": "2022-01-01"
+        },
+        {
+          "label": "6/30/2022",
+          "value": "2022-06-30"
+        },
+        {
+          "label": "Hung Tack Kwan",
+          "value": "0033h00000zPv4dAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "DAL - Procurement - Business Automation - CP4BA with RPA-Project",
+          "value": "a3o3h000001UIroAAG"
+        },
+        {
+          "label": "Procurement - Business Automation - CP4BA with RPA",
+          "value": "0063h00000Hf0yyAAB"
+        },
+        {
+          "label": "DELTA AIR LINES INC-US",
+          "value": "0013h00000w1cpxAAA"
+        },
+        {
+          "escapedLabel": "Client prospect never engaged.",
+          "label": "Client prospect never engaged.",
+          "value": "Client prospect never engaged."
+        },
+        {
+          "label": "Canceled",
+          "value": "Canceled"
+        },
+        {
+          "label": "1/1/2022",
+          "value": "2022-01-01"
+        },
+        {
+          "label": "12/31/2022",
+          "value": "2022-12-31"
+        },
+        {
+          "label": "Anil Prakash Singh",
+          "value": "0033h00000zPutqAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "LOWE - Infosphere Data Replication DB2 on Z/OS-Project",
+          "value": "a3o3h000001UIznAAG"
+        },
+        {
+          "label": "Infosphere Data Replication DB2 on Z/OS",
+          "value": "0063h00000HfFnXAAV"
+        },
+        {
+          "label": "LOWE'S-US",
+          "value": "0013h00000w1ddbAAA"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "In Progress",
+          "value": "In Progress"
+        },
+        {
+          "label": "2/24/2022",
+          "value": "2022-02-24"
+        },
+        {
+          "label": "7/31/2022",
+          "value": "2022-07-31"
+        },
+        {
+          "label": "Bruce Kyle",
+          "value": "0033h00000zPv96AAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "ALBT - Watson Assistant-Project",
+          "value": "a3o3h000001UIvgAAG"
+        },
+        {
+          "label": "Albertsons - Watson Assistant",
+          "value": "0063h00000HfLd3AAF"
+        },
+        {
+          "label": "ALBERTSONS COMPANIES INC-US",
+          "value": "0013h00000w1e0cAAA"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "Canceled",
+          "value": "Canceled"
+        },
+        {
+          "label": "2/22/2022",
+          "value": "2022-02-22"
+        },
+        {
+          "label": "5/27/2022",
+          "value": "2022-05-27"
+        },
+        {
+          "label": "Hung Tack Kwan",
+          "value": "0033h00000zPv4dAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "NIKE - External Building Infrastructure Sustainability",
+          "value": "a3o3h000001UIzxAAG"
+        },
+        {
+          "label": "Place-holder on Sustainability for \"External Infrastructure\"",
+          "value": "0063h00000HfMkQAAV"
+        },
+        {
+          "label": "NIKE INC-US",
+          "value": "0013h00000w1bu8AAA"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "In Progress",
+          "value": "In Progress"
+        },
+        {
+          "label": "1/1/2022",
+          "value": "2022-01-01"
+        },
+        {
+          "label": "7/29/2022",
+          "value": "2022-07-29"
+        },
+        {
+          "label": "Sarah Armstrong",
+          "value": "0033h00000zPusoAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "NFSB - Watson Knowledge Center Quick Scan and Automation",
+          "value": "a3o3h000001UIrtAAG"
+        },
+        {
+          "label": "Norfolk Southern - ELA Upside",
+          "value": "0063h00000HfRJQAA3"
+        },
+        {
+          "label": "NORFOLK SOUTHERN CORPORATION-US",
+          "value": "0013h00000w1ghyAAA"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "In Progress",
+          "value": "In Progress"
+        },
+        {
+          "label": "2/16/2022",
+          "value": "2022-02-16"
+        },
+        {
+          "label": "5/31/2022",
+          "value": "2022-05-31"
+        },
+        {
+          "label": "Bruce Kyle",
+          "value": "0033h00000zPv96AAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "TRVL - Language Translation-Project",
+          "value": "a3o3h000001UJ6ZAAW"
+        },
+        {
+          "label": "Travelport Language Translation",
+          "value": "0063h00000Hg1KrAAJ"
+        },
+        {
+          "label": "TRAVELPORT-US",
+          "value": "0013h00000w1fBeAAI"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "On Hold",
+          "value": "On Hold"
+        },
+        {
+          "label": "3/2/2022",
+          "value": "2022-03-02"
+        },
+        {
+          "label": "7/31/2022",
+          "value": "2022-07-31"
+        },
+        {
+          "label": "Jessie Adams",
+          "value": "0033h00000zPuuXAAS"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "KRGR - Assist with a data fabric",
+          "value": "a3o3h0000014zvrAAA"
+        },
+        {
+          "label": "Kroger ELA Q2 (Amendment # 40)",
+          "value": "0063h00000HirxCAAR"
+        },
+        {
+          "label": "KROGER-US",
+          "value": "0013h00000w1bvgAAA"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "Discovery",
+          "value": "Discovery"
+        },
+        {
+          "label": "4/20/2022",
+          "value": "2022-04-20"
+        },
+        {
+          "label": "6/30/2022",
+          "value": "2022-06-30"
+        },
+        {
+          "label": "Sarah Armstrong",
+          "value": "0033h00000zPusoAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "KRGR - Integration Development Self-Service Infrastructure Automation",
+          "value": "a3o3h00000264XOAAY"
+        },
+        {
+          "label": "Kroger ELA Q2 (Amendment # 40)",
+          "value": "0063h00000HirxCAAR"
+        },
+        {
+          "label": "KROGER-US",
+          "value": "0013h00000w1bvgAAA"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "In Progress",
+          "value": "In Progress"
+        },
+        {
+          "label": "3/7/2022",
+          "value": "2022-03-07"
+        },
+        {
+          "label": "6/30/2022",
+          "value": "2022-06-30"
+        },
+        {
+          "label": "Hung Tack Kwan",
+          "value": "0033h00000zPv4dAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "KRGR - CP4I Demo Assistance -Project",
+          "value": "a3o3h0000014ztqAAA"
+        },
+        {
+          "label": "Kroger ELA Q2 (Amendment # 40)",
+          "value": "0063h00000HirxCAAR"
+        },
+        {
+          "label": "KROGER-US",
+          "value": "0013h00000w1bvgAAA"
+        },
+        {
+          "escapedLabel": "Opened by mistake",
+          "label": "Opened by mistake",
+          "value": "Opened by mistake"
+        },
+        {
+          "label": "Canceled",
+          "value": "Canceled"
+        },
+        {
+          "label": "4/20/2022",
+          "value": "2022-04-20"
+        },
+        {
+          "label": "6/30/2022",
+          "value": "2022-06-30"
+        },
+        {
+          "label": "Hung Tack Kwan",
+          "value": "0033h00000zPv4dAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "UAL - Datapower/Security Future State - Project",
+          "value": "a3o3h00000264d2AAA"
+        },
+        {
+          "label": "United Datapower/Security Future State - Garage",
+          "value": "0063h00000HorOwAAJ"
+        },
+        {
+          "label": "UNITED AIR LINES INC-US",
+          "value": "0013h00000w1Re5AAE"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "Canceled",
+          "value": "Canceled"
+        },
+        {
+          "label": "3/11/2022",
+          "value": "2022-03-11"
+        },
+        {
+          "label": "7/31/2022",
+          "value": "2022-07-31"
+        },
+        {
+          "label": "Anil Prakash Singh",
+          "value": "0033h00000zPutqAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "UAL - ODM/ML Strategy and Use Cases-Project",
+          "value": "a3o3h00000264d7AAA"
+        },
+        {
+          "label": "United Airlines ODM/ML/ADS",
+          "value": "0063h00000HorQ4AAJ"
+        },
+        {
+          "label": "UNITED AIR LINES INC-US",
+          "value": "0013h00000w1Re5AAE"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "On Hold",
+          "value": "On Hold"
+        },
+        {
+          "label": "3/11/2022",
+          "value": "2022-03-11"
+        },
+        {
+          "label": "9/30/2022",
+          "value": "2022-09-30"
+        },
+        {
+          "label": "Anil Prakash Singh",
+          "value": "0033h00000zPutqAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "FEDX - Instana Observability Dark Packages group-Project",
+          "value": "a3o3h0000014zdnAAA"
+        },
+        {
+          "label": "Instana Observability Dark Packages group",
+          "value": "0063h00000HpXo6AAF"
+        },
+        {
+          "label": "FEDEX CORP-US",
+          "value": "0013h00000w1eCJAAY"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "Completed",
+          "value": "Completed"
+        },
+        {
+          "label": "3/31/2022",
+          "value": "2022-03-31"
+        },
+        {
+          "label": "5/27/2022",
+          "value": "2022-05-27"
+        },
+        {
+          "label": "Anil Prakash Singh",
+          "value": "0033h00000zPutqAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "FEDX - Predict Server Failures",
+          "value": "a3o3h0000014zyCAAQ"
+        },
+        {
+          "label": "Fedex Metric Manager Phil Rencher",
+          "value": "0063h00000HvgejAAB"
+        },
+        {
+          "label": "FEDEX CORP-US",
+          "value": "0013h00000w1eCJAAY"
+        },
+        {
+          "escapedLabel": "Predict Server outages to improve uptime",
+          "label": "Predict Server outages to improve uptime",
+          "value": "Predict Server outages to improve uptime"
+        },
+        {
+          "label": "Triage",
+          "value": "Triage"
+        },
+        {
+          "label": "5/4/2022",
+          "value": "2022-05-04"
+        },
+        {
+          "label": "7/31/2022",
+          "value": "2022-07-31"
+        },
+        {
+          "label": "Anil Prakash Singh",
+          "value": "0033h00000zPutqAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "CDNL - Unified Data Integration PoC-Project",
+          "value": "a3o3h000001UIziAAG"
+        },
+        {
+          "label": "Unified Data Integration PoC for Cardinal",
+          "value": "0063h00000I0cqzAAB"
+        },
+        {
+          "label": "CARDINAL HEALTH INC-US",
+          "value": "0013h00000w1csEAAQ"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "Canceled",
+          "value": "Canceled"
+        },
+        {
+          "label": "2/24/2022",
+          "value": "2022-02-24"
+        },
+        {
+          "label": "5/27/2022",
+          "value": "2022-05-27"
+        },
+        {
+          "label": "Hung Tack Kwan",
+          "value": "0033h00000zPv4dAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "ALBT - Watson AIOps - Observability-Project",
+          "value": "a3o3h00000264ciAAA"
+        },
+        {
+          "label": "Watson AIOps - Observability",
+          "value": "0063h00000I1GrxAAF"
+        },
+        {
+          "label": "ALBERTSONS COMPANIES INC-US",
+          "value": "0013h00000w1e0cAAA"
+        },
+        {
+          "escapedLabel": "-",
+          "label": "-",
+          "value": null
+        },
+        {
+          "label": "Discovery",
+          "value": "Discovery"
+        },
+        {
+          "label": "3/11/2022",
+          "value": "2022-03-11"
+        },
+        {
+          "label": "6/30/2022",
+          "value": "2022-06-30"
+        },
+        {
+          "label": "Hung Tack Kwan",
+          "value": "0033h00000zPv4dAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "UPS - ODM Trade up to CP4BA-Project",
+          "value": "a3o3h0000014zxnAAA"
+        },
+        {
+          "label": "UPS ODM Trade up to CP4BA",
+          "value": "0063h00000I1VULAA3"
+        },
+        {
+          "label": "UNITED PARCEL SERVICE-US",
+          "value": "0013h000019FqjpAAC"
+        },
+        {
+          "escapedLabel": "Need to advise in MVP on ODM migration from Weblogic to trade up to CP4BA and deploy on either Websphere or container.",
+          "label": "Need to advise in MVP on ODM migration from Weblogic to trade up to CP4BA and deploy on either Websphere or container.",
+          "value": "Need to advise in MVP on ODM migration from Weblogic to trade up to CP4BA and deploy on either Websphere or container."
+        },
+        {
+          "label": "On Hold",
+          "value": "On Hold"
+        },
+        {
+          "label": "5/4/2022",
+          "value": "2022-05-04"
+        },
+        {
+          "label": "7/31/2022",
+          "value": "2022-07-31"
+        },
+        {
+          "label": "Anil Prakash Singh",
+          "value": "0033h00000zPutqAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "NSFB - W-9 Document Processing and Automation-Project",
+          "value": "a3o3h0000014zatAAA"
+        },
+        {
+          "label": "Automation for Master Data Processing (ELA Content)",
+          "value": "0063h00000I1jPPAAZ"
+        },
+        {
+          "label": "NORFOLK SOUTHERN CORPORATION-US",
+          "value": "0013h00000w1ghyAAA"
+        },
+        {
+          "escapedLabel": "Entering customer and vendor Master Data is manual and laborious process. The requests come thru email via pdf attachments. Data needs to be manually entered into SAP system. Sometimes it delays the process and can be error prone. Turnaround time needs to",
+          "label": "Entering customer and vendor Master Data is manual and laborious process. The requests come thru email via pdf attachments. Data needs to be manually entered into SAP system. Sometimes it delays the process and can be error prone. Turnaround time needs to",
+          "value": "Entering customer and vendor Master Data is manual and laborious process. The requests come thru email via pdf attachments. Data needs to be manually entered into SAP system. Sometimes it delays the process and can be error prone. Turnaround time needs to"
+        },
+        {
+          "label": "In Progress",
+          "value": "In Progress"
+        },
+        {
+          "label": "3/25/2022",
+          "value": "2022-03-25"
+        },
+        {
+          "label": "6/30/2022",
+          "value": "2022-06-30"
+        },
+        {
+          "label": "Bruce Kyle",
+          "value": "0033h00000zPv96AAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "NFSB - Modernize MDM with additional capabilities-Project",
+          "value": "a3o3h0000014zayAAA"
+        },
+        {
+          "label": "Modernize MDM with additional capabilities",
+          "value": "0063h00000I1nV4AAJ"
+        },
+        {
+          "label": "NORFOLK SOUTHERN CORPORATION-US",
+          "value": "0013h00000w1ghyAAA"
+        },
+        {
+          "escapedLabel": "NS uses IBM MDM but not all capabilities are leveraged. NS is interested in PME as MDM data comes from multiple sources and dublicates need to be avoided. Also NS wants address verification feature to correct incorrect address data.",
+          "label": "NS uses IBM MDM but not all capabilities are leveraged. NS is interested in PME as MDM data comes from multiple sources and dublicates need to be avoided. Also NS wants address verification feature to correct incorrect address data.",
+          "value": "NS uses IBM MDM but not all capabilities are leveraged. NS is interested in PME as MDM data comes from multiple sources and dublicates need to be avoided. Also NS wants address verification feature to correct incorrect address data."
+        },
+        {
+          "label": "Completed",
+          "value": "Completed"
+        },
+        {
+          "label": "3/25/2022",
+          "value": "2022-03-25"
+        },
+        {
+          "label": "6/25/2022",
+          "value": "2022-06-25"
+        },
+        {
+          "label": "Bruce Kyle",
+          "value": "0033h00000zPv96AAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "CDNL - Leased-Out Equipment Asset Mgmnt-Project",
+          "value": "a3o3h000001501LAAQ"
+        },
+        {
+          "label": "Asset Mgmt for Leased-Out Medical Equipment",
+          "value": "0063h00000IOUnNAAX"
+        },
+        {
+          "label": "CARDINAL HEALTH INC-US",
+          "value": "0013h00000w1csEAAQ"
+        },
+        {
+          "escapedLabel": "using Maximo asset management for the leased out equipement",
+          "label": "using Maximo asset management for the leased out equipement",
+          "value": "using Maximo asset management for the leased out equipement"
+        },
+        {
+          "label": "Triage",
+          "value": "Triage"
+        },
+        {
+          "label": "5/11/2022",
+          "value": "2022-05-11"
+        },
+        {
+          "label": "8/31/2022",
+          "value": "2022-08-31"
+        },
+        {
+          "label": "Ross Levine",
+          "value": "0033h00000zPutiAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "CDNL - API Management for P2P Integration-Project",
+          "value": "a3o3h0000014zxxAAA"
+        },
+        {
+          "label": "Integration Channel for API",
+          "value": "0063h00000IPePQAA1"
+        },
+        {
+          "label": "CARDINAL HEALTH INC-US",
+          "value": "0013h00000w1csEAAQ"
+        },
+        {
+          "escapedLabel": "The CDNL application system has many point to point connections between applications using various API protocols. There is no Governance, there are Operational Issues, and the overall system is fragile",
+          "label": "The CDNL application system has many point to point connections between applications using various API protocols. There is no Governance, there are Operational Issues, and the overall system is fragile",
+          "value": "The CDNL application system has many point to point connections between applications using various API protocols. There is no Governance, there are Operational Issues, and the overall system is fragile"
+        },
+        {
+          "label": "Triage",
+          "value": "Triage"
+        },
+        {
+          "label": "5/4/2022",
+          "value": "2022-05-04"
+        },
+        {
+          "label": "6/30/2022",
+          "value": "2022-06-30"
+        },
+        {
+          "label": "Ross Levine",
+          "value": "0033h00000zPutiAAC"
+        }
+      ]
+    },
+    {
+      "dataCells": [
+        {
+          "label": "AA - Airport baggage/cart/driver optimization-Project",
+          "value": "a3o3h0000014zy2AAA"
+        },
+        {
+          "label": "Airport baggage/cart/driver optimization",
+          "value": "0063h00000IawxgAAB"
+        },
+        {
+          "label": "AMERICAN AIRLINES INC-US",
+          "value": "0013h00000w1UniAAE"
+        },
+        {
+          "escapedLabel": "Optimize the positioning and usage of personnel and baggage carts on the tarmac",
+          "label": "Optimize the positioning and usage of personnel and baggage carts on the tarmac",
+          "value": "Optimize the positioning and usage of personnel and baggage carts on the tarmac"
+        },
+        {
+          "label": "Triage",
+          "value": "Triage"
+        },
+        {
+          "label": "5/4/2022",
+          "value": "2022-05-04"
+        },
+        {
+          "label": "8/31/2022",
+          "value": "2022-08-31"
+        },
+        {
+          "label": "Hung Tack Kwan",
+          "value": "0033h00000zPv4dAAC"
+        }
+      ]
+    }
+  ]
+}
