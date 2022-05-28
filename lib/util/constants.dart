@@ -15,6 +15,9 @@ const assignmentsCollectionId = "Assignments";
 const accountsCollectionId = "Accounts";
 const talentCollectionId = "Talent";
 
+const label = "label";
+const value = "value";
+
 const accountIdKey = "accountid";
 const accountNameKey = "accountname";
 const accountTSLKey = "tslid";
@@ -22,6 +25,9 @@ const accountATLKey = "atlid";
 
 const talentIdKey = "talentid";
 const talentNameKey = "talentname";
+
+const oppIdKey = "oppId";
+const oppNameKey = "oppName";
 
 const projectIdKey = "projectid";
 const projectNameKey = "projectname";

@@ -1,7 +1,7 @@
 import 'package:dart_appwrite/dart_appwrite.dart';
 
-import 'client.dart';
-import 'constants.dart';
+import 'util/client.dart';
+import 'util/constants.dart';
 
 class BucketsAndCollections {
   static Future<void> bucketsAndCollections(String bucketId) async {
@@ -77,6 +77,13 @@ class BucketsAndCollections {
       await Appwrite.database.createStringAttribute(
         collectionId: projectsCollectionId,
         key: accountIdKey,
+        size: 254,
+        xrequired: true,
+      );
+
+      await Appwrite.database.createStringAttribute(
+        collectionId: projectsCollectionId,
+        key: oppIdKey,
         size: 254,
         xrequired: true,
       );

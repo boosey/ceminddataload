@@ -1,13 +1,13 @@
 import 'dart:convert';
 
-import 'package:ceminddataload/account.dart' as cea;
-import 'package:ceminddataload/project.dart';
+import 'package:ceminddataload/models/account.dart' as cea;
+import 'package:ceminddataload/models/project.dart';
 import 'package:dart_appwrite/dart_appwrite.dart';
 import 'package:uuid/uuid.dart';
 
 import 'bucketsandcollections.dart';
-import 'client.dart';
-import 'constants.dart';
+import 'util/client.dart';
+import 'util/constants.dart';
 
 final uuid = Uuid();
 

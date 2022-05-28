@@ -1,8 +1,8 @@
 import 'package:dart_appwrite/models.dart';
 import 'package:uuid/uuid.dart';
 
-import 'client.dart';
-import 'constants.dart';
+import 'util/client.dart';
+import 'util/constants.dart';
 
 final uuid = Uuid();
 
