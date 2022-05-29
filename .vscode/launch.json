@@ -13,9 +13,9 @@
         "-b",
         "cemind-input-files",
         "--projects",
-        "./projects-5-27.json",
-        "--assignments",
-        "./projects-5-27.json",
+        "./newprojects.json",
+        // "--assignments",
+        // "./projects-5-27.json",
       ]
     },
     {
@@ -25,6 +25,15 @@
       "program": "bin/ceminddataload.dart",
       "args": [
         "--delete-all",
+      ]
+    },
+    {
+      "name": "cemind-setup",
+      "request": "launch",
+      "type": "dart",
+      "program": "bin/ceminddataload.dart",
+      "args": [
+        "--setup",
       ]
     }
   ]

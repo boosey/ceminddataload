@@ -1,14 +1,17 @@
 import 'package:dart_appwrite/models.dart';
 import 'package:uuid/uuid.dart';
 
-import 'client.dart';
-import 'constants.dart';
+import 'util/client.dart';
+import 'util/constants.dart';
 
 final uuid = Uuid();
 
 Future<void> deleteAll() async {
   await deleteCollection(projectsCollectionId);
   await deleteCollection(accountsCollectionId);
+  await deleteCollection(talentCollectionId);
+  await deleteCollection(opportunityCollectionId);
+  await deleteCollection(assignmentsCollectionId);
 }
 
 Future<void> deleteCollection(String collectionId) async {

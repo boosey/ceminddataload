@@ -1,9 +1,9 @@
+import 'package:ceminddataload/util/constants.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'account.g.dart';
 
-const accountIdIdxProject = 4;
-const accountNameIdxProject = 5;
+const accountIdxProject = 2;
 
 @JsonSerializable()
 class Account {
@@ -20,12 +20,8 @@ class Account {
       _$AccountFromJson(json);
 
   factory Account.fromJsonDataCells(List<dynamic> dataCells) {
-    const label = "label";
-    // ignore: unused_local_variable
-    const value = "value";
-
-    final String accountid = dataCells[accountIdIdxProject][label];
-    final String accountname = dataCells[accountNameIdxProject][label];
+    final String accountid = dataCells[accountIdxProject][value];
+    final String accountname = dataCells[accountIdxProject][label];
 
     return Account(
       accountid,

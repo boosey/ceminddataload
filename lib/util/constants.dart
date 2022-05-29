@@ -8,12 +8,17 @@ const bucketIdFlag = "bucket-id";
 const projectListFileFlag = "projects";
 const assignmentListFileFlag = "assignments";
 const deleteAllFlag = "delete-all";
+const setupFlag = "setup";
 
 const bucketIdDefault = "cemind-input-files";
 const projectsCollectionId = "Projects";
 const assignmentsCollectionId = "Assignments";
 const accountsCollectionId = "Accounts";
 const talentCollectionId = "Talent";
+const opportunityCollectionId = "Opportunity";
+
+const label = "label";
+const value = "value";
 
 const accountIdKey = "accountid";
 const accountNameKey = "accountname";
@@ -22,6 +27,9 @@ const accountATLKey = "atlid";
 
 const talentIdKey = "talentid";
 const talentNameKey = "talentname";
+
+const opportunityIdKey = "opportunityid";
+const opportunityNameKey = "opportunityname";
 
 const projectIdKey = "projectid";
 const projectNameKey = "projectname";
