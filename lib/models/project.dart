@@ -19,7 +19,7 @@ class Project {
   final String notes;
   final String stage;
   final String accountid;
-  final String oppId;
+  final String opportunityid;
   final DateTime startdate;
   final DateTime enddate;
   final String leaderid;
@@ -27,7 +27,7 @@ class Project {
   Project(
     this.projectid,
     this.projectname,
-    this.oppId,
+    this.opportunityid,
     this.accountid,
     this.notes,
     this.stage,
@@ -47,7 +47,7 @@ class Project {
     final String notes = dataCells[notesIdx][label];
     final String stage = dataCells[stageIdx][label];
     final String accountid = dataCells[accountIdx][value];
-    final String oppId = dataCells[oppIdx][value];
+    final String opportunityid = dataCells[oppIdx][value];
     final String leaderid = dataCells[leaderIdIdx][value];
     final DateTime startdate = DateTime.parse(dataCells[startDateIdx][value]);
     final DateTime enddate = DateTime.parse(dataCells[endDateIdx][value]);
@@ -55,7 +55,7 @@ class Project {
     return Project(
       projectid,
       projectname,
-      oppId,
+      opportunityid,
       accountid,
       notes,
       stage,

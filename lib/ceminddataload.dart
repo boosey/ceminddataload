@@ -1,11 +1,12 @@
 import 'dart:convert';
 
 import 'package:ceminddataload/models/account.dart' as cea;
+import 'package:ceminddataload/models/opportunity.dart';
+import 'package:ceminddataload/models/talent.dart';
 import 'package:ceminddataload/models/project.dart';
 import 'package:dart_appwrite/dart_appwrite.dart';
 import 'package:uuid/uuid.dart';
 
-import 'bucketsandcollections.dart';
 import 'util/client.dart';
 import 'util/constants.dart';
 
@@ -16,16 +17,7 @@ Future<void> process({
   String projectFilePath = "",
   String assignmentFilePath = "",
 }) async {
-//Do not use this in production
-
-  print('Running Upload File API');
-
-  await BucketsAndCollections.bucketsAndCollections(bucketId);
-
-  print("Delaying to allow db to settle");
-  // delay to allow database structure to be committed
-  await Future.delayed(Duration(seconds: 5));
-  print("Resuming");
+  print('Running Upload File');
 
   if (projectFilePath.isNotEmpty) {
     var fileId = await uploadFile(path: projectFilePath, bucket: bucketId);
@@ -36,6 +28,16 @@ Future<void> process({
     );
 
     await processProjectsFileForAccounts(
+      fileId: fileId,
+      bucket: bucketId,
+    );
+
+    await processProjectsFileForTalent(
+      fileId: fileId,
+      bucket: bucketId,
+    );
+
+    await processProjectsFileForOpportunities(
       fileId: fileId,
       bucket: bucketId,
     );
@@ -102,6 +104,72 @@ String entityId(idKey, Map<String, dynamic> json) {
 //     idKey: projectIdKey,
 //   );
 // }
+
+Future<void> processProjectsFileForOpportunities({
+  required String fileId,
+  required String bucket,
+}) async {
+  final fileContents =
+      await Appwrite.storage.getFileView(bucketId: bucket, fileId: fileId);
+  final jsonString = String.fromCharCodes(fileContents);
+  final json = jsonDecode(jsonString);
+  final List<dynamic> rows = json["rows"];
+
+  for (Map<String, dynamic> p in rows) {
+    Opportunity opportunity = Opportunity.fromJsonDataCells(p["dataCells"]);
+
+    try {
+      var o = opportunity.toJson();
+
+      await Appwrite.database.createDocument(
+        collectionId: opportunityCollectionId,
+        documentId: opportunity.opportunityid,
+        data: o,
+      );
+    } on AppwriteException catch (e) {
+      if (e.code == 409) {
+        print("duplicate opportunity");
+      } else {
+        rethrow;
+      }
+    } on Exception {
+      rethrow;
+    }
+  }
+}
+
+Future<void> processProjectsFileForTalent({
+  required String fileId,
+  required String bucket,
+}) async {
+  final fileContents =
+      await Appwrite.storage.getFileView(bucketId: bucket, fileId: fileId);
+  final jsonString = String.fromCharCodes(fileContents);
+  final json = jsonDecode(jsonString);
+  final List<dynamic> rows = json["rows"];
+
+  for (Map<String, dynamic> p in rows) {
+    Talent talent = Talent.fromJsonDataCells(p["dataCells"]);
+
+    try {
+      var t = talent.toJson();
+
+      await Appwrite.database.createDocument(
+        collectionId: talentCollectionId,
+        documentId: talent.talentid,
+        data: t,
+      );
+    } on AppwriteException catch (e) {
+      if (e.code == 409) {
+        print("duplicate talent");
+      } else {
+        rethrow;
+      }
+    } on Exception {
+      rethrow;
+    }
+  }
+}
 
 Future<void> processProjectsFileForProjects({
   required String fileId,

@@ -9,6 +9,8 @@ class BucketsAndCollections {
     await accountsCollection();
     await projectCollection();
     await assignmentsCollection();
+    await talentCollection();
+    await opportunityCollection();
   }
 
   static String idx(String key) {
@@ -49,7 +51,7 @@ class BucketsAndCollections {
       await Appwrite.database.createStringAttribute(
         collectionId: projectsCollectionId,
         key: projectIdKey,
-        size: 60,
+        size: 254,
         xrequired: true,
       );
 
@@ -83,7 +85,7 @@ class BucketsAndCollections {
 
       await Appwrite.database.createStringAttribute(
         collectionId: projectsCollectionId,
-        key: oppIdKey,
+        key: opportunityIdKey,
         size: 254,
         xrequired: true,
       );
@@ -105,7 +107,7 @@ class BucketsAndCollections {
       await Appwrite.database.createStringAttribute(
         collectionId: projectsCollectionId,
         key: projectLeaderKey,
-        size: 60,
+        size: 254,
         xrequired: true,
       );
     } on Exception {
@@ -129,28 +131,28 @@ class BucketsAndCollections {
       await Appwrite.database.createStringAttribute(
         collectionId: accountsCollectionId,
         key: accountIdKey,
-        size: 60,
+        size: 254,
         xrequired: true,
       );
 
       await Appwrite.database.createStringAttribute(
         collectionId: accountsCollectionId,
         key: accountNameKey,
-        size: 60,
+        size: 1024,
         xrequired: true,
       );
 
       await Appwrite.database.createStringAttribute(
         collectionId: accountsCollectionId,
         key: accountTSLKey,
-        size: 60,
+        size: 254,
         xrequired: false,
       );
 
       await Appwrite.database.createStringAttribute(
         collectionId: accountsCollectionId,
         key: accountATLKey,
-        size: 60,
+        size: 254,
         xrequired: false,
       );
 
@@ -187,6 +189,65 @@ class BucketsAndCollections {
       //   attributes: [accountATLKey],
       //   orders: [asc],
       // );
+    }
+  }
+
+  static Future<void> talentCollection() async {
+    try {
+      await Appwrite.database.getCollection(collectionId: talentCollectionId);
+    } on AppwriteException catch (e) {
+      print(e.toString());
+      await Appwrite.database.createCollection(
+        collectionId: talentCollectionId,
+        name: talentCollectionId,
+        permission: 'collection',
+        read: ['role:all'],
+        write: ['role:all'],
+      );
+
+      await Appwrite.database.createStringAttribute(
+        collectionId: talentCollectionId,
+        key: talentIdKey,
+        size: 254,
+        xrequired: true,
+      );
+
+      await Appwrite.database.createStringAttribute(
+        collectionId: talentCollectionId,
+        key: talentNameKey,
+        size: 1024,
+        xrequired: true,
+      );
+    }
+  }
+
+  static Future<void> opportunityCollection() async {
+    try {
+      await Appwrite.database
+          .getCollection(collectionId: opportunityCollectionId);
+    } on AppwriteException catch (e) {
+      print(e.toString());
+      await Appwrite.database.createCollection(
+        collectionId: opportunityCollectionId,
+        name: opportunityCollectionId,
+        permission: 'collection',
+        read: ['role:all'],
+        write: ['role:all'],
+      );
+
+      await Appwrite.database.createStringAttribute(
+        collectionId: opportunityCollectionId,
+        key: opportunityIdKey,
+        size: 254,
+        xrequired: true,
+      );
+
+      await Appwrite.database.createStringAttribute(
+        collectionId: opportunityCollectionId,
+        key: opportunityNameKey,
+        size: 1024,
+        xrequired: true,
+      );
     }
   }
 

@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:ceminddataload/ceminddataload.dart' as ceminddataload;
+import 'package:ceminddataload/setup.dart' as setup;
 import 'package:args/args.dart';
 import 'package:ceminddataload/resetdata.dart';
 
@@ -12,6 +13,7 @@ Future<void> main(List<String> arguments) async {
     ..addOption(bucketIdFlag, abbr: 'b')
     ..addOption(projectListFileFlag, abbr: 'p')
     ..addFlag(deleteAllFlag, abbr: 'd')
+    ..addFlag(setupFlag)
     ..addOption(assignmentListFileFlag, abbr: 'a');
 
   ArgResults argResults = parser.parse(arguments);
@@ -22,9 +24,9 @@ Future<void> main(List<String> arguments) async {
 
   if (argResults[deleteAllFlag] as bool) {
     await deleteAll();
-  }
-
-  if (!(argResults[deleteAllFlag] as bool)) {
+  } else if (argResults[setupFlag] as bool) {
+    await setup.BucketsAndCollections.bucketsAndCollections(bucketIdDefault);
+  } else {
     await ceminddataload.process(
       bucketId: b ?? bucketIdDefault,
       projectFilePath: f ?? "",

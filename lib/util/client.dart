@@ -3,7 +3,7 @@ import 'package:dart_appwrite/dart_appwrite.dart';
 const endpoint = "http://localhost/v1";
 const projectId = "cemind";
 const key =
-    "c88e110b8a91cad4795711b27fc29d1ce6992be14351ff3de6e2926b6eb626fabb90af8edab252c02df1f123f804e2b488daba30d996c9a775f667e579e2841e192dc453a6497e878c38c4f0e133846a9c4e4dcd2f6dfde4a3d62c16243c0ce07b8c7d634a48633262d58d60564b97c1db9799eadfb143917841a83bf42ba213";
+    "824343ab79999b5b3a73ca351933ff6f3600d6619be5b07c3d0c5d91361c1070be0036196c76fff6081ddc8ef470ee13ca4ed8de8caf759ad168b9fa3bb85dbe574a39ec966bb2cf9fa9c7f2447686b16cc38264fe618296f07ac5c3467cd21efd2bd2d28c124ed781f137f942cc67dc55a39a61e363b6e10008546c970ba13e";
 
 class Appwrite {
   static Client? _client;

@@ -9,6 +9,9 @@ final uuid = Uuid();
 Future<void> deleteAll() async {
   await deleteCollection(projectsCollectionId);
   await deleteCollection(accountsCollectionId);
+  await deleteCollection(talentCollectionId);
+  await deleteCollection(opportunityCollectionId);
+  await deleteCollection(assignmentsCollectionId);
 }
 
 Future<void> deleteCollection(String collectionId) async {

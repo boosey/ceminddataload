@@ -9,7 +9,7 @@ part of 'project.dart';
 Project _$ProjectFromJson(Map<String, dynamic> json) => Project(
       json['projectid'] as String,
       json['projectname'] as String,
-      json['oppId'] as String,
+      json['opportunityid'] as String,
       json['accountid'] as String,
       json['notes'] as String,
       json['stage'] as String,
@@ -24,7 +24,7 @@ Map<String, dynamic> _$ProjectToJson(Project instance) => <String, dynamic>{
       'notes': instance.notes,
       'stage': instance.stage,
       'accountid': instance.accountid,
-      'oppId': instance.oppId,
+      'opportunityid': instance.opportunityid,
       'startdate': instance.startdate.toIso8601String(),
       'enddate': instance.enddate.toIso8601String(),
       'leaderid': instance.leaderid,

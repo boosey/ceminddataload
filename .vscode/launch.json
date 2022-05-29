@@ -26,6 +26,15 @@
       "args": [
         "--delete-all",
       ]
+    },
+    {
+      "name": "cemind-setup",
+      "request": "launch",
+      "type": "dart",
+      "program": "bin/ceminddataload.dart",
+      "args": [
+        "--setup",
+      ]
     }
   ]
 }
