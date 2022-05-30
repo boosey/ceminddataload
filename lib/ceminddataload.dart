@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:ceminddataload/models/account.dart' as cea;
+import 'package:ceminddataload/models/assignment.dart';
 import 'package:ceminddataload/models/opportunity.dart';
 import 'package:ceminddataload/models/talent.dart';
 import 'package:ceminddataload/models/project.dart';
@@ -63,6 +64,21 @@ Future<void> processProjectsFile({
   }
 }
 
+Future<void> processAssignmentsFile({
+  required String fileId,
+}) async {
+  final fileContents =
+      await Appwrite.storage.getFileView(bucketId: bucketId, fileId: fileId);
+  final jsonString = String.fromCharCodes(fileContents);
+  final json = jsonDecode(jsonString);
+  final List<dynamic> rows = json["rows"];
+
+  for (Map<String, dynamic> r in rows) {
+    Assignment a = Assignment.fromJsonDataCells(r["dataCells"]);
+    await processEntity(a.assignmentid, a.toJson(), assignmentsCollectionId);
+  }
+}
+
 Future<void> processEntity(
   String entityId,
   Map<String, dynamic> entity,
@@ -84,10 +100,6 @@ Future<void> processEntity(
     rethrow;
   }
 }
-
-Future<void> processAssignmentsFile({
-  required String fileId,
-}) async {}
 
 Future<String> uploadFile({
   required String path,

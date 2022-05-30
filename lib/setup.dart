@@ -11,6 +11,9 @@ class BucketsAndCollections {
     await assignmentsCollection();
     await talentCollection();
     await opportunityCollection();
+    await geoCollection();
+    await marketCollection();
+    await squadCollection();
   }
 
   static String idx(String key) {
@@ -29,6 +32,48 @@ class BucketsAndCollections {
         permission: 'collection',
         read: ['role:all'],
         write: ['role:all'],
+      );
+
+      await Appwrite.database.createStringAttribute(
+        collectionId: assignmentsCollectionId,
+        key: assignmentIdKey,
+        size: 254,
+        xrequired: true,
+      );
+
+      await Appwrite.database.createStringAttribute(
+        collectionId: assignmentsCollectionId,
+        key: projectIdKey,
+        size: 254,
+        xrequired: true,
+      );
+
+      await Appwrite.database.createStringAttribute(
+        collectionId: assignmentsCollectionId,
+        key: talentIdKey,
+        size: 254,
+        xrequired: true,
+      );
+
+      await Appwrite.database.createStringAttribute(
+        collectionId: assignmentsCollectionId,
+        key: roleNameKey,
+        size: 254,
+        xrequired: true,
+      );
+
+      await Appwrite.database.createStringAttribute(
+        collectionId: assignmentsCollectionId,
+        key: startDateKey,
+        size: 254,
+        xrequired: true,
+      );
+
+      await Appwrite.database.createStringAttribute(
+        collectionId: assignmentsCollectionId,
+        key: endDateKey,
+        size: 254,
+        xrequired: true,
       );
     } on Exception {
       rethrow;
@@ -92,14 +137,14 @@ class BucketsAndCollections {
 
       await Appwrite.database.createStringAttribute(
         collectionId: projectsCollectionId,
-        key: projectStartDateKey,
+        key: startDateKey,
         size: 254,
         xrequired: true,
       );
 
       await Appwrite.database.createStringAttribute(
         collectionId: projectsCollectionId,
-        key: projectEndDateKey,
+        key: endDateKey,
         size: 254,
         xrequired: true,
       );
@@ -215,6 +260,93 @@ class BucketsAndCollections {
       await Appwrite.database.createStringAttribute(
         collectionId: talentCollectionId,
         key: talentNameKey,
+        size: 1024,
+        xrequired: true,
+      );
+    }
+  }
+
+  static Future<void> geoCollection() async {
+    try {
+      await Appwrite.database.getCollection(collectionId: geoCollectionId);
+    } on AppwriteException catch (e) {
+      print(e.toString());
+      await Appwrite.database.createCollection(
+        collectionId: geoCollectionId,
+        name: geoCollectionId,
+        permission: 'collection',
+        read: ['role:all'],
+        write: ['role:all'],
+      );
+
+      await Appwrite.database.createStringAttribute(
+        collectionId: geoCollectionId,
+        key: geoIdKey,
+        size: 254,
+        xrequired: true,
+      );
+
+      await Appwrite.database.createStringAttribute(
+        collectionId: geoCollectionId,
+        key: geoNameKey,
+        size: 1024,
+        xrequired: true,
+      );
+    }
+  }
+
+  static Future<void> marketCollection() async {
+    try {
+      await Appwrite.database.getCollection(collectionId: marketCollectionId);
+    } on AppwriteException catch (e) {
+      print(e.toString());
+      await Appwrite.database.createCollection(
+        collectionId: marketCollectionId,
+        name: marketCollectionId,
+        permission: 'collection',
+        read: ['role:all'],
+        write: ['role:all'],
+      );
+
+      await Appwrite.database.createStringAttribute(
+        collectionId: marketCollectionId,
+        key: marketIdKey,
+        size: 254,
+        xrequired: true,
+      );
+
+      await Appwrite.database.createStringAttribute(
+        collectionId: marketCollectionId,
+        key: marketNameKey,
+        size: 1024,
+        xrequired: true,
+      );
+    }
+  }
+
+  static Future<void> squadCollection() async {
+    try {
+      await Appwrite.database.getCollection(collectionId: squadCollectionId);
+    } on AppwriteException catch (e) {
+      print(e.toString());
+      await Appwrite.database.createCollection(
+        collectionId: squadCollectionId,
+        name: squadCollectionId,
+        permission: 'collection',
+        read: ['role:all'],
+        write: ['role:all'],
+      );
+
+      await Appwrite.database.createStringAttribute(
+        collectionId: squadCollectionId,
+        key: squadIdKey,
+        size: 254,
+        xrequired: true,
+      );
+
+      await Appwrite.database.createStringAttribute(
+        collectionId: squadCollectionId,
+        key: squadNameKey,
         size: 1024,
         xrequired: true,
       );

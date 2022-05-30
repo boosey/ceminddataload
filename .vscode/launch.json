@@ -12,8 +12,8 @@
       "args": [
         "--projects",
         "./projects-5-29.json",
-        // "--assignments",
-        // "./projects-5-27.json",
+        "--assignments",
+        "./assignments-5-29.json",
       ]
     },
     {
