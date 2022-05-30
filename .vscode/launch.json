@@ -10,10 +10,8 @@
       "type": "dart",
       "program": "bin/ceminddataload.dart",
       "args": [
-        "-b",
-        "cemind-input-files",
         "--projects",
-        "./newprojects.json",
+        "./projects-5-29.json",
         // "--assignments",
         // "./projects-5-27.json",
       ]

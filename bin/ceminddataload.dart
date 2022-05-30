@@ -10,25 +10,22 @@ import '../lib/util/constants.dart';
 
 Future<void> main(List<String> arguments) async {
   final parser = ArgParser()
-    ..addOption(bucketIdFlag, abbr: 'b')
-    ..addOption(projectListFileFlag, abbr: 'p')
     ..addFlag(deleteAllFlag, abbr: 'd')
     ..addFlag(setupFlag)
+    ..addOption(projectListFileFlag, abbr: 'p')
     ..addOption(assignmentListFileFlag, abbr: 'a');
 
   ArgResults argResults = parser.parse(arguments);
 
-  final b = argResults[bucketIdFlag];
   final f = argResults[projectListFileFlag];
   final a = argResults[assignmentListFileFlag];
 
   if (argResults[deleteAllFlag] as bool) {
     await deleteAll();
   } else if (argResults[setupFlag] as bool) {
-    await setup.BucketsAndCollections.bucketsAndCollections(bucketIdDefault);
+    await setup.BucketsAndCollections.bucketsAndCollections();
   } else {
     await ceminddataload.process(
-      bucketId: b ?? bucketIdDefault,
       projectFilePath: f ?? "",
       assignmentFilePath: a ?? "",
     );

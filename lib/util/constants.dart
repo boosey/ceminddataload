@@ -10,7 +10,7 @@ const assignmentListFileFlag = "assignments";
 const deleteAllFlag = "delete-all";
 const setupFlag = "setup";
 
-const bucketIdDefault = "cemind-input-files";
+const bucketId = "cemind-input-files";
 const projectsCollectionId = "Projects";
 const assignmentsCollectionId = "Assignments";
 const accountsCollectionId = "Accounts";

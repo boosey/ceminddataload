@@ -4,8 +4,8 @@ import 'util/client.dart';
 import 'util/constants.dart';
 
 class BucketsAndCollections {
-  static Future<void> bucketsAndCollections(String bucketId) async {
-    await storageBucket(bucketId);
+  static Future<void> bucketsAndCollections() async {
+    await storageBucket();
     await accountsCollection();
     await projectCollection();
     await assignmentsCollection();
@@ -251,7 +251,7 @@ class BucketsAndCollections {
     }
   }
 
-  static Future<void> storageBucket(String bucketId) async {
+  static Future<void> storageBucket() async {
     try {
       await Appwrite.storage.getBucket(bucketId: bucketId);
     } on AppwriteException catch (e) {
